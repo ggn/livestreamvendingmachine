@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />
+</head>
+
+<body>
+    <!-- Introduction -->
+    <div style="text-align: center">
+        <header class="container">
+            <h1>LVM - Viewer Console</h1>
+        </header>
+    </div>
+    <!-- Error alert -->
+    <section class="container">
+        <h3 id="error"></h3>
+    </section>
+
+    <!-- Compositor preview -->
+    <section class="container">
+        <video id="video-player" width="100%" controls></video>
+    </section>
+    <div id="settings_section" style="display: none">
+
+        <!-- Playback input -->
+        <section class="container">
+            <label for="playback-url">Playback URL</label>
+            <input type="text" id="txt-playback-url" value="" />
+        </section>
+    </div>
+    <section class="container">
+        <h6>&nbsp;</h6>
+    </section>
+    <section class="container">
+        <center>
+            <button class="button" id="start" onclick="playStream()">Play Stream</button>
+            <button class="button" id="show" onclick="showSettings()">Show Settings</button>
+        </center>
+    </section>
+
+
+    <script src="https://player.live-video.net/1.12.0/amazon-ivs-player.min.js"></script>
+    <script src="assets/app/app.js"></script>
+</body>
+
+</html>
