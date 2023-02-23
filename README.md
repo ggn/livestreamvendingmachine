@@ -28,5 +28,8 @@ If you are not the broadcaster. Click on "generate creator console". This will c
 2. Select all channels that you want to delete and Click on Delete. (Ensure you are in right AWS region)
 3. Complete the confirmation step and your channels are deleted.
 
+#### PS: You should have user credentials to start using LVM.
+User should have the permissions mentioned in LVMPolicy.json 
+
 ## ENJOY STREAMING
 
