@@ -1,0 +1,56 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateServiceLinkedRole",
+                "iam:AttachRolePolicy",
+                "iam:PutRolePolicy"
+            ],
+            "Resource": "arn:aws:iam::*:role/aws-service-role/ivs.amazonaws.com/AWSServiceRoleForIVSRecordToS3*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "servicequotas:ListServices",
+                "cloudwatch:GetMetricData",
+                "ivs:CreateStreamKey",
+                "ivs:BatchGetChannel",
+                "ivs:UntagResource",
+                "s3:CreateBucket",
+                "servicequotas:ListTagsForResource",
+                "servicequotas:ListAWSDefaultServiceQuotas",
+                "ivs:GetStreamKey",
+                "ivs:PutMetadata",
+                "ivs:ListChannels",
+                "ivs:CreateRecordingConfiguration",
+                "ivs:TagResource",
+                "ivs:GetStream",
+                "servicequotas:ListServiceQuotas",
+                "ivs:ImportPlaybackKeyPair",
+                "ivs:GetStreamSession",
+                "ivs:GetChannel",
+                "ivs:GetRecordingConfiguration",
+                "ivs:ListPlaybackKeyPairs",
+                "ivs:ListStreamSessions",
+                "ivs:ListStreams",
+                "ivs:ListTagsForResource",
+                "s3:ListAllMyBuckets",
+                "ivs:StopStream",
+                "ivs:GetPlaybackKeyPair",
+                "cloudwatch:DescribeAlarms",
+                "ivs:CreateChannel",
+                "servicequotas:ListRequestedServiceQuotaChangeHistoryByQuota",
+                "s3:GetBucketLocation",
+                "ivs:BatchGetStreamKey",
+                "ivs:ListRecordingConfigurations",
+                "ivs:ListStreamKeys",
+                "ivs:UpdateChannel"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
