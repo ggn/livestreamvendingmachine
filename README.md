@@ -2,7 +2,7 @@
 ### This tool help you to create a live stream, start a live broadcast and test the playback all using single console.
 
 
-#### LVM URL : https://d3rq8jg4v0rlto.cloudfront.net/
+#### LVM URL : https://d3rq8jg4v0rlto.cloudfront.net/ (Works best on chrome)
 #### Demo Video : https://youtu.be/atJhULMpwJ8
 
 ### Open the LVM url and provide 4 details :
